@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:id="@+id/cv"
+    android:backgroundTint="@color/purple_200"
+    app:cardCornerRadius="1dp">
+    <RelativeLayout android:layout_height="95dp"
+        android:layout_width="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="97dp"
+            android:layout_height="95dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="6dp"
+            android:background="#D6BBEA">
+
+            <TextView
+                android:id="@+id/login"
+                style="@style/styleText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:padding="4dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="2dp"
+            android:background="#D6BBEA">
+
+            <!--text view for displaying news title-->
+
+            <!--text view for displaying news description-->
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/styleText"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="71dp"
+                android:padding="4dp"
+                android:text="News Title"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content"
+                style="@style/styleText"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="118dp"
+                android:padding="4dp"
+                android:text="News Desc"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

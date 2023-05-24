@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Authorization">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/styleText"
+        android:layout_width="219dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/loginText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="128dp"
+        android:text="Повторите пароль"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/styleText"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="213dp"
+        android:text="Пароль"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="136dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/styleText"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="213dp"
+        android:text="Логин"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/styleText"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="76dp"
+        android:text="Регистрация"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/loginText"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="57dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/enterBut"
+        style="@style/styleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_below="@+id/editTextTextPersonName4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="83dp"
+        android:text="Зарегистрироваться" />
+
+</RelativeLayout>
